@@ -11,6 +11,7 @@
 		4A5CB14F26E0EF5D00FDFC05 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5CB14E26E0EF5D00FDFC05 /* ContentView.swift */; };
 		4A5CB15126E0EF5E00FDFC05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A5CB15026E0EF5E00FDFC05 /* Assets.xcassets */; };
 		4A5CB15426E0EF5E00FDFC05 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A5CB15326E0EF5E00FDFC05 /* Preview Assets.xcassets */; };
+		4A5CB15C26E0EF6C00FDFC05 /* onDebouncedChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5CB15B26E0EF6C00FDFC05 /* onDebouncedChange.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		4A5CB15026E0EF5E00FDFC05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A5CB15326E0EF5E00FDFC05 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4A5CB15526E0EF5E00FDFC05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A5CB15B26E0EF6C00FDFC05 /* onDebouncedChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onDebouncedChange.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				4A5CB14C26E0EF5D00FDFC05 /* DebounceTestApp.swift */,
 				4A5CB14E26E0EF5D00FDFC05 /* ContentView.swift */,
+				4A5CB15B26E0EF6C00FDFC05 /* onDebouncedChange.swift */,
 				4A5CB15026E0EF5E00FDFC05 /* Assets.xcassets */,
 				4A5CB15526E0EF5E00FDFC05 /* Info.plist */,
 				4A5CB15226E0EF5E00FDFC05 /* Preview Content */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A5CB15C26E0EF6C00FDFC05 /* onDebouncedChange.swift in Sources */,
 				4A5CB14F26E0EF5D00FDFC05 /* ContentView.swift in Sources */,
 				4A5CB14D26E0EF5D00FDFC05 /* DebounceTestApp.swift in Sources */,
 			);
